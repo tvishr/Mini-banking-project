@@ -1,5 +1,5 @@
 {
-  "name": "Mini banking project",
+  "name": "mini-banking-project",
   "packageManager": "yarn@4.11.0",
   "scripts": {
     "dev": "concurrently \"yarn --cwd mini-banking-portal dev\" \"yarn --cwd server dev\""
