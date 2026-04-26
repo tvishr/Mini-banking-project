@@ -1,0 +1,60 @@
+.Dashboard h1 {
+  font-size: 3em;
+  line-height: 1.1;
+  margin-top: 0px;
+  position:relative;
+}
+
+ .Dashboard .service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5em;
+  margin-top: 2em;  
+}
+
+/* The container for all cards */
+ .service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 16px;
+  background-color: #f8f9fb; 
+}
+
+/* Individual Card Styling */
+.service-card {
+  background-color: #ffffff;
+  border-radius: 12px; 
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #f0f0f0; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for interactivity */
+.service-card:hover {
+  background-color: #fcfcfc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Styling the Title/Label */
+.service-card h3 {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #4a4a4a;
+  line-height: 1.2;
+}
+
+/* Icon Placeholder (If you aren't using images yet) */
+.service-card .icon-wrapper {
+  font-size: 2rem;
+  color: #801414;
+}
